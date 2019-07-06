@@ -1,0 +1,19 @@
+
+
+
+spring:
+  application:
+    name: springcloud-provider-news
+  cloud:
+    config:
+      lable: master
+      profile: dev
+      discovery:
+          enabled: true
+          service-id: springcloud-config-server
+      uri: http://localhost:8090
+
+
+
+
+
