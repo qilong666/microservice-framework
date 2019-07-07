@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93b77ff2-ca21-4774-9606-0c33b8517404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-order-feign/src/main/java/com/jk/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-order-feign/src/main/java/com/jk/service/OrderServiceError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-order-feign/src/main/java/com/jk/service/OrderServiceFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-order/src/main/java/com/jk/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-order/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-service-Api/src/main/java/com/jk/service/OrderServiceApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-consumer-user-ribbon/src/main/java/com/jk/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-user/src/main/java/com/jk/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-provider-user/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -26,6 +23,8 @@
     <ignored path="$PROJECT_DIR$/springcloud-consumer-goods-feign/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-provider-order/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-consumer-order-feign/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider-user/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-consumer-user-ribbon/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,19 +51,70 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-provider-order/src/main/java/com/jk/SpringcloudProviderOrderApplication.java">
+        <entry file="file://$PROJECT_DIR$/springcloud-consumer-user-ribbon/src/main/java/com/jk/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="188">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-provider-user/src/main/java/com/jk/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-eureka/src/main/java/com/jk/SpringcloudEurekaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <folding>
+                <element signature="e#423#424#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-provider-user/src/main/java/com/jk/SpringcloudProviderUserApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springcloud-consumer-order-feign/src/main/java/com/jk/SpringcloudConsumerOrderFeignApplication.java">
+        <entry file="file://$PROJECT_DIR$/springcloud-consumer-user-ribbon/src/main/java/com/jk/SpringcloudConsumerUserRibbonApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="247">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-config-server/src/main/java/com/jk/SpringcloudConfigServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -74,8 +124,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -92,16 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springcloud-config-server/src/main/java/com/jk/SpringcloudConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/springcloud-provider-news/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springcloud-zuul/src/main/java/com/jk/SpringcloudZuulApplication.java" />
-        <option value="$PROJECT_DIR$/springcloud-config-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springcloud-common/src/main/java/com/jk/model/OrderInfo.java" />
-        <option value="$PROJECT_DIR$/springcloud-provider-news/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-zuul/src/main/java/com/jk/filter/MyFilter.java" />
-        <option value="$PROJECT_DIR$/springcloud-provider-news/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/springcloud-zuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springcloud-provider-news/src/main/java/com/jk/service/NewsService.java" />
         <option value="$PROJECT_DIR$/springcloud-provider-news/src/main/java/com/jk/SpringcloudProviderNewsApplication.java" />
         <option value="$PROJECT_DIR$/springcloud-consumer-news-feign/src/main/resources/templates/Bootstarp.html" />
         <option value="$PROJECT_DIR$/springcloud-consumer-news-feign/src/main/resources/static/tree.js" />
@@ -143,6 +183,16 @@
         <option value="$PROJECT_DIR$/springcloud-consumer-order-feign/src/main/java/com/jk/service/OrderServiceError.java" />
         <option value="$PROJECT_DIR$/springcloud-consumer-order-feign/src/main/java/com/jk/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/springcloud-provider-order/src/main/java/com/jk/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-user/src/main/java/com/jk/SpringcloudProviderUserApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-user/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-user-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-user-ribbon/src/main/java/com/jk/SpringcloudConsumerUserRibbonApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-user-ribbon/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-service-Api/src/main/java/com/jk/service/UserServiceApi.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-user-ribbon/src/main/java/com/jk/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-user/src/main/java/com/jk/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -184,25 +234,25 @@
             <path>
               <item name="springcloud-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-consumer-order-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-consumer-user-ribbon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-consumer-order-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-consumer-user-ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-consumer-order-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-consumer-user-ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-consumer-order-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-consumer-user-ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -210,7 +260,7 @@
             <path>
               <item name="springcloud-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-consumer-order-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-consumer-user-ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -219,7 +269,7 @@
             <path>
               <item name="springcloud-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-consumer-order-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-consumer-user-ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -229,17 +279,7 @@
             <path>
               <item name="springcloud-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-consumer-order-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jk" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-consumer-order-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-consumer-user-ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -247,52 +287,42 @@
             <path>
               <item name="springcloud-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-provider-order" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-provider-order" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-provider-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-provider-order" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-provider-order" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-provider-order" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jk" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-provider-order" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -347,7 +377,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562508874553" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562511292427" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -377,7 +407,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringcloudConsumerOrderFeignApplication">
+  <component name="RunManager" selected="Spring Boot.SpringcloudConsumerUserRibbonApplication">
     <configuration name="SpringcloudConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud-config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jk.SpringcloudConfigServerApplication" />
@@ -402,6 +432,13 @@
     <configuration name="SpringcloudConsumerOrderFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud-consumer-order-feign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jk.SpringcloudConsumerOrderFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudConsumerUserRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-consumer-user-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jk.SpringcloudConsumerUserRibbonApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -434,6 +471,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringcloudProviderUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-provider-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jk.SpringcloudProviderUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringcloudZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud-zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jk.SpringcloudZuulApplication" />
@@ -459,16 +503,15 @@
       <workItem from="1562374313293" duration="5901000" />
       <workItem from="1562421338090" duration="5365000" />
       <workItem from="1562430277180" duration="273000" />
-      <workItem from="1562491189625" duration="10851000" />
+      <workItem from="1562491189625" duration="13261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59134000" />
+    <option name="totallyTimeSpent" value="61544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4957627" visible="true" weight="0.33888048" />
       <window_info id="Structure" order="1" sideWeight="0.5042373" side_tool="true" weight="0.31694403" />
@@ -481,14 +524,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.6199678" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25764894" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.42190015" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.41223833" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.45659164" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -513,82 +556,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springcloud-consumer-news-feign/src/main/resources/static/tree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/mavenLib/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/bind/annotation/RequestBody.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider-news/src/main/java/com/jk/service/NewsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider-news/src/main/java/com/jk/mapper/NewsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider-news/src/main/resources/mapper/NewsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/mavenLib/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider-news/src/main/java/com/jk/service/NewsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-common/src/main/java/com/jk/model/NewsBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider-news/src/main/java/com/jk/controller/NewsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-consumer-news-feign/src/main/resources/templates/newsShow.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -804,20 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider-order/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider-order/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-consumer-news-feign/src/main/java/com/jk/service/NewsServiceFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -896,12 +849,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-eureka/src/main/java/com/jk/SpringcloudEurekaApplication.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-order-feign/src/main/java/com/jk/SpringcloudConsumerOrderFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-order/src/main/java/com/jk/SpringcloudProviderOrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-order/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-user-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-user-ribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-Api/src/main/java/com/jk/service/UserServiceApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-user/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-user-ribbon/src/main/java/com/jk/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="33" />
           <folding>
-            <element signature="e#423#424#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-user/src/main/java/com/jk/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -913,17 +948,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-provider-order/src/main/java/com/jk/SpringcloudProviderOrderApplication.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka/src/main/java/com/jk/SpringcloudEurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="171">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-consumer-order-feign/src/main/java/com/jk/SpringcloudConsumerOrderFeignApplication.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-user/src/main/java/com/jk/SpringcloudProviderUserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="190">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-user-ribbon/src/main/java/com/jk/SpringcloudConsumerUserRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
