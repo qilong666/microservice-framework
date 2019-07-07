@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/springcloud-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-provider-goods/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-consumer-goods-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-order/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-order-feign/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

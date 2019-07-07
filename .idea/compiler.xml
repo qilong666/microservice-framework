@@ -10,9 +10,11 @@
         <module name="springcloud-config-server" />
         <module name="springcloud-consumer-goods-feign" />
         <module name="springcloud-consumer-news-feign" />
+        <module name="springcloud-consumer-order-feign" />
         <module name="springcloud-eureka" />
         <module name="springcloud-provider-goods" />
         <module name="springcloud-provider-news" />
+        <module name="springcloud-provider-order" />
         <module name="springcloud-service-Api" />
         <module name="springcloud-zuul" />
       </profile>
@@ -28,9 +30,11 @@
       <module name="springcloud-config-server" options="-parameters" />
       <module name="springcloud-consumer-goods-feign" options="-parameters" />
       <module name="springcloud-consumer-news-feign" options="-parameters" />
+      <module name="springcloud-consumer-order-feign" options="-parameters" />
       <module name="springcloud-eureka" options="-parameters" />
       <module name="springcloud-provider-goods" options="-parameters" />
       <module name="springcloud-provider-news" options="-parameters" />
+      <module name="springcloud-provider-order" options="-parameters" />
       <module name="springcloud-zuul" options="-parameters" />
     </option>
   </component>
