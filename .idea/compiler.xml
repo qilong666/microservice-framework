@@ -8,24 +8,28 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-common" />
         <module name="springcloud-config-server" />
+        <module name="springcloud-consumer-goods-feign" />
         <module name="springcloud-consumer-news-feign" />
         <module name="springcloud-eureka" />
+        <module name="springcloud-provider-goods" />
         <module name="springcloud-provider-news" />
         <module name="springcloud-service-Api" />
         <module name="springcloud-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="springcloud-service-API" target="1.5" />
       <module name="springcloud-service-api" target="1.8" />
+      <module name="springcloud-service-API" target="1.5" />
       <module name="springcloudserviceapi" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springcloud-config-server" options="-parameters" />
+      <module name="springcloud-consumer-goods-feign" options="-parameters" />
       <module name="springcloud-consumer-news-feign" options="-parameters" />
       <module name="springcloud-eureka" options="-parameters" />
+      <module name="springcloud-provider-goods" options="-parameters" />
       <module name="springcloud-provider-news" options="-parameters" />
       <module name="springcloud-zuul" options="-parameters" />
     </option>
