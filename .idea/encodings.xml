@@ -6,12 +6,12 @@
     <file url="file://$PROJECT_DIR$/springcloud-consumer-goods-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-consumer-news-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-consumer-order-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-consumer-user-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-consumer-user-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-provider-goods" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-provider-news" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-provider-order" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springcloud-provider-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-provider-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-service-Api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-zuul" charset="UTF-8" />

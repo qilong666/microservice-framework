@@ -11,6 +11,7 @@
         <module name="springcloud-consumer-goods-feign" />
         <module name="springcloud-consumer-news-feign" />
         <module name="springcloud-consumer-order-feign" />
+        <module name="springcloud-consumer-user-feign" />
         <module name="springcloud-consumer-user-ribbon" />
         <module name="springcloud-eureka" />
         <module name="springcloud-provider-goods" />
@@ -33,6 +34,7 @@
       <module name="springcloud-consumer-goods-feign" options="-parameters" />
       <module name="springcloud-consumer-news-feign" options="-parameters" />
       <module name="springcloud-consumer-order-feign" options="-parameters" />
+      <module name="springcloud-consumer-user-feign" options="-parameters" />
       <module name="springcloud-consumer-user-ribbon" options="-parameters" />
       <module name="springcloud-eureka" options="-parameters" />
       <module name="springcloud-provider-goods" options="-parameters" />

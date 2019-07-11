@@ -10,6 +10,6 @@ import org.springframework.stereotype.Component;
  * @Created by ${jmh}
  */
 
-@FeignClient(value = "springcloud-provider-order")
+@FeignClient(value = "springcloud-provider-order",fallback = OrderServiceError.class)
 public interface OrderServiceFeign extends OrderServiceApi{
 }
